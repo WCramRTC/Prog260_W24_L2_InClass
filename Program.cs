@@ -11,6 +11,12 @@ namespace Prog260_W24_L2_InClass
 
         static void Main(string[] args)
         {
+  
+
+        }
+
+        public static void BigONotationNotes()
+        {
             // BigO (1)
             int element = numbers[1];
 
@@ -31,7 +37,7 @@ namespace Prog260_W24_L2_InClass
                 {
                     Console.Write($"i: {i} - j: {j} ");
                 }
-                Console.WriteLine(  );
+                Console.WriteLine();
             }
 
             // BigO (n^2)
@@ -65,7 +71,6 @@ namespace Prog260_W24_L2_InClass
             // What we are looking for? ==
             // Is it greater than? >
             // Is it less than? <
-
         }
 
         static void InsertionSortArray(int[] arr)
